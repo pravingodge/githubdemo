@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git-repo') {
             steps {
-                git 'https://github.com/pravingodge/webapp-1.git'
+                git 'https://github.com/pravingodge/githubdemo.git'
             }
             
         }
